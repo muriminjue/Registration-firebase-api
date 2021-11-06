@@ -1,0 +1,28 @@
+POST http://localhost:9000/api/newadmin
+Content-Type: application/json
+
+{
+    "firstName": "mathew",
+    "lastName": "murimi",
+    "email": "muriminjue.nm@gmail.com"
+}
+
+###
+get http://localhost:9000/api/tutors
+
+###
+POST http://localhost:9000/api/studentreview
+Content-Type: application/json
+
+{
+    
+    "fullname" : "Rab Sam",
+   "school" : "",
+   "level": "",
+    "rating" : 5,
+    "comment" : "It's the best home tuition. Great teachers, committed to improve learners' performance.
+Bravo"
+}
+
+###
+get http://localhost:9000/api/tutorreview
